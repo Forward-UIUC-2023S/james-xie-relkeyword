@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Keyword Search Recommendation",
+    "description": "Suggests Related Keywords for the User based on the keywords they type into a Search Engine",
+    "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+    "version": "1.0",
+    "omnibox": { "keyword" : "aaron" },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "magnifying_glass.png"
+    },
+    "background": {
+      "service_worker":"background.js",
+      "type": "module"
+    },
+    "content_scripts": [
+      {
+          "matches": ["http://*/*", "*://*/*"],
+          "js": ["./scripts/content.js"]
+      }
+  ]
+  }

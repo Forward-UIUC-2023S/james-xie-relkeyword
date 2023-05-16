@@ -119,7 +119,7 @@ kw_suggester.retrieve_related_words("children")
 kw_suggester.retrieve_sentence("children", "youth")
 ```
 ## Demo video
-Make sure to include a video showing your module in action and how to use it in this section. Github Pages doesn't support this so I am unable to do this here. However, this can be done in your README.md files of your own repo. Follow instructions [here](https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md) of the accepted answer 
+https://drive.google.com/file/d/1Q547fdhSeuhRXetxQTvZ7jaXCp9Bd-7p/view?usp=share_link
 
 
 ## Algorithmic Design 
@@ -132,7 +132,7 @@ Once we have a list of semantically similar and semantically related keyphrases,
 
 
 
-![design architecture](https://github.com/Forward-UIUC-2021F/guidelines/blob/main/template_diagrams/sample-design.png)
+![design architecture](https://github.com/Forward-UIUC-2023S/james-xie-relkeyword/blob/main/ModelArchitecture.png)
 
 
 

@@ -43,7 +43,7 @@ with open('../data/idf.json') as f:
     idf = f.read()
 idf = json.loads(idf)
 
-with open('../data/test2/sentence_to_doc.json') as f:
+with open('../data/test3/sentence_to_doc.json') as f:
     sentence_to_doc = f.read()
 sentence_to_doc = json.loads(sentence_to_doc)
 

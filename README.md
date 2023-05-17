@@ -70,11 +70,6 @@ james-xie-relatedkeyword/
 * `relkeyword/src/relkeyword/KeywordSuggester.py`: KeywordSuggester class takes output files derived from CorpusAnalyzer class to output keyword recommendations as well as a corresponding sentence justification
 * `data/Grants-20230219.csv`: Grant Corpus where preliminary testing was conducted
 
-### Important 
-Go to [our shared google Drive space](https://drive.google.com/drive/folders/1rxPAdGTVcl-Xo6uuFovdKcCw5_FEaXIC?usp=sharing) and create a folder with the format `FirstnameLastName-Projectname` (e.g. `AshutoshUkey-KeywordTrie`). In here, make sure to include a zipped copy of any data files related to your module (including `.sql` dumps of necessary databases) as well as a backup zipped copy of your Github repo (i.e. all the files you upload to Github).
-
-
-
 ## Functional Design (Usage)
 After installing relkeyword Python package, the CorpusAnalyzer and KeywordSuggester classes can be used as follows:
 
@@ -147,9 +142,3 @@ Currently, the embedding model used is the pre-trained Phrase-BERT model trained
 Spring 2023 (James Xie)
 - Initial Commit
 - Created CorpusAnalyzer and KeywordSuggester class
-## References 
-include links related to datasets and papers describing any of the methodologies models you used. E.g. 
-
-* Dataset: https://www.kaggle.com/Cornell-University/arxiv 
-* BERT paper: Jacob Devlin, Ming-Wei Chang, Kenton Lee, & Kristina Toutanova. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
-
